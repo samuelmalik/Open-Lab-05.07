@@ -11,9 +11,9 @@
 
 ## Examples: 
 ```C#
-RemoveSmallest([1, 2, 3, 4, 5]) ➞ [2, 3, 4, 5]
-RemoveSmallest([5, 3, 2, 1, 4]) ➞ [5, 3, 2, 4]
-RemoveSmallest([2, 2, 1, 2, 1]) ➞ [2, 2, 2, 1]
+RemoveSmallest(new int[]{ 1, 2, 3, 4, 5 }) ➞ [2, 3, 4, 5]
+RemoveSmallest(new int[]{ 5, 3, 2, 1, 4 }) ➞ [5, 3, 2, 4]
+RemoveSmallest(new int[]{ 2, 2, 1, 2, 1 }) ➞ [2, 2, 2, 1]
 ```
 
 ## Notes:
