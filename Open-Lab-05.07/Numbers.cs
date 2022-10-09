@@ -1,4 +1,7 @@
-﻿using System;
+﻿using NUnit.Framework;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Open_Lab_05._07
 {
@@ -6,7 +9,9 @@ namespace Open_Lab_05._07
     {
         public int[] RemoveSmallest(int[] nums)
         {
-            throw new NotImplementedException();
+            List<int> numbers = nums.ToList();
+            numbers.Remove(numbers.Min());
+            return numbers.ToArray();
         }
     }
 }
